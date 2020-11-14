@@ -107,7 +107,7 @@ section {
 .intro {
     text-align: center;
 }
-.intro h2 {
+/* .intro h2 {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
@@ -115,7 +115,7 @@ section {
     border-bottom: 3px solid;
     border-color: #fce138;
     display: inline-block;
-}
+} */
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -127,14 +127,14 @@ section {
     text-align: center;
     background: #fce138;
 }
-.steps h2 {
+/* .steps h2 {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #39a6b2;
-}
+} */
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -219,11 +219,31 @@ section {
     width: 400px;
     height: 400px;
 }
+/*
 .contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    margin: 30px 0 0 60px;
+  
     color: white;    
+} 
+*/
+.contact-info {
+    float: left;
+    width: 50%;
+    text-align: left;
+    color: white;
+    }
+.contact {
+    content: "";
+    display: table;
+    clear: both;
+    } 
+.contact-info p {
+    color: white;
+    margin: 0px;
+}
+.contact-info h3 {
+    color: #fce138 ;
 }
