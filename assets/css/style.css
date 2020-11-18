@@ -257,20 +257,14 @@ section {
 .contact h2 {
     color: #fce138;
     }
-.contact-info iframe {
-    width: 400px;
+.contact-info iframe {  
     height: 400px;
 }
-/*
-.contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-  
+
+.contact-info div {   
     color: white;    
 } 
-*/
+
 .contact-info {
     float: left;
     width: 50%;
@@ -285,10 +279,52 @@ section {
 .contact-info p {
     color: white;
     margin: 0px;
+    font-size: 16px;
 }
 .contact-info h3 {
     color: #fce138 ;
 }
 .flex-row {
     display: flex;
+}
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+.contact-info address {
+    font-size: 16px;
+}
+.contact-form input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
