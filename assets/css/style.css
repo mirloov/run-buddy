@@ -251,9 +251,7 @@ section {
     margin: 0px;
     color: #fce138;
 }
-.contact {    
-    background-color: #024e76; 
-}
+
 .contact h2 {
     color: #fce138;
     }
@@ -265,16 +263,18 @@ section {
     color: white;    
 } 
 
-.contact-info {
+/* .contact-info {
     float: left;
     width: 50%;
     text-align: left;
     color: white;
-    }
+    } */
 .contact {
-    content: "";
+    background-color: #024e76; 
+    content: " ";
     display: table;
     clear: both;
+    width: 100%;
     } 
 .contact-info p {
     color: white;
